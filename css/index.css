@@ -1,0 +1,128 @@
+ 
+.Roboto_Regular{
+    font-family: Roboto_Regular;
+}
+@font-face {
+    font-family: Roboto_Regular;
+    src: url('static/fonts/RobotoRegular.ttf');
+}
+.Roboto_Medium{
+    font-family: Roboto_Medium;
+}
+@font-face {
+    font-family: Roboto_Medium;
+    src: url('static/fonts/RobotoMedium.ttf');
+}
+.Comfortaa{
+    font-family: Comfortaa;
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url('static/fonts/Comfortaa.ttf');
+}
+.full-width{
+    width: 100%;
+}
+
+.full-height{
+    height: 100%;
+}
+
+
+.color_btn{
+    filter: drop-shadow(-0.5vw 0.5vw 0.5vw #84B489);
+    width: 12vw;
+    height: 3vw;
+    background: #C9CB67;
+    border-radius: 0px 20px;
+    font-family: Roboto_Regular;
+}
+.color_btn1{
+    filter: drop-shadow(-0.5vw 0.5vw 0.5vw #84B489);
+    width: 12vw;
+    height: 3vw;
+    background: #C9CB67;
+    border-radius: 0px 20px;
+    font-family: Roboto_Regular;
+    font-size: 1.2vw;
+}
+.color_btn1_mobile{
+    filter: drop-shadow(-0.5vw 0.5vw 0.5vw #84B489);
+    width: 120px;
+    height: 30px;
+    background: #C9CB67;
+    border-radius: 0px 20px;
+    font-family: Roboto_Regular;
+    font-size: 12px;
+}
+.modal_windows{
+    border-radius: 0% 10%;
+    background: #C1D9C4;
+}
+
+.zagalovok{
+    font-family: Roboto_Medium;
+    font-size: 3.5vw;
+    line-height:70px;
+    padding-top: 60px;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+.zagalovok_mobile{
+    font-family: Roboto_Medium;
+    font-size: 25px;
+    line-height:25px;
+    padding-top: 65px;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.btn_in_block{
+    filter: drop-shadow(-0.5vw 0.5vw 0.5vw #84B489);
+    width: 130px;
+    height: 25px;
+    background: #C9CB67;
+    border-radius: 0px 20px;
+    font-family: Roboto_Medium;
+}
+.block_salt{
+    background:rgba(193, 217, 196, 1);
+    width:270px;
+    text-align:center;
+    border-radius: 0px 30px;
+}
+
+.block_salt_main{
+    background:rgba(193, 217, 196, 1);
+    width:700px;
+    height: 300px;
+    text-align:center;
+    border-radius: 0px 40px;
+}
+.block_salt_main_mobile{
+    background:rgba(193, 217, 196, 1);
+    width:300px;
+    height: 100%;
+    margin-top: 20px;
+    text-align:center;
+    border-radius: 0px 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,300px));
+    grid-gap:8vw;
+}
+.main_text{
+    font-family: Roboto_Medium;
+    font-size: 3.5vw;
+    line-height: 50px;
+    padding-top: 20px;
+    margin-bottom: 4vw;
+    text-align: center;
+    width: 85vw;
+}
+.block_append{
+    width:800px; 
+    background:rgba(141, 185, 145, 0.5); 
+    border-radius:0px 30px;
+}
